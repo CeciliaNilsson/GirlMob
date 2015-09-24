@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="GirlMobContactList.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                <asp:ListItem>Add</asp:ListItem>
+                <asp:ListItem>Update</asp:ListItem>
+                <asp:ListItem>Delete</asp:ListItem>
+            </asp:RadioButtonList>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
+        </div>
+    </form>
+</body>
+</html>

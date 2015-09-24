@@ -1,0 +1,39 @@
+﻿Utseende:
+- Valbara alternativ:
+	- add
+	- Lista av kontakter
+
+- Ny kontakt
+		- Förnamn (tom)		
+		- Efternamn (tom)
+		- SSN (tom)
+
+- I en kontakt: 
+		- Förnamn
+		- Efternamn
+		- SSN 
+		- Knapp
+			- Update
+			- Delete
+
+Dokument:
+- Master page
+- Content page
+- User control page
+
+- Class Person
+	- Kontakt med SQL
+	- Properties för sättande av Förnamn, Efternamn, SSN
+	- Metod för uppdatera
+	- Metod för delete
+- CSS stylesheet
+
+
+
+
+
+
+
+
+
+
